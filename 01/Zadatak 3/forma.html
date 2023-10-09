@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prva forma</title>
+
+    <style>
+        form{
+            padding: 5px;
+            background-color: rgb(227, 227, 227);
+            width: 300px;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>My first form</legend>
+            <label for="">First name:</label>
+            <input type="text" placeholder="Marko">
+            <label for="">Last name:</label>
+            <input type="text" placeholder="Markovic" style="width: 164px;">
+            <label for="">Password:</label>
+            <input type="password" style="width: 169px;"><br>
+            <label for="">E-mail:</label>
+            <input type="email" placeholder="no-reply@something.com" style="width: 188px;">
+
+            <hr>
+
+            <label>Gender:</label> <br>
+            <input type="radio" checked> Male <br>
+            <input type="radio" > Female <br>
+
+
+            <label>Select Course:</label>
+            <select name="" id="">
+                <option value="">ASP.NET MVC</option>
+            </select>
+
+            <hr>
+
+            <textarea name="" id="" cols="33" rows="15" placeholder="Write your commnets here..."></textarea>
+
+            <hr>
+
+            <label>Training:</label> <br>
+            <input type="checkbox">Elementary <br>
+            <input type="checkbox">Advanced <br>
+            <input type="checkbox"> Proficiency
+
+            <hr>
+
+            <input type="submit" value="Sumbit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
